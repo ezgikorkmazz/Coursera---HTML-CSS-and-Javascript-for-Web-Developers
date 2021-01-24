@@ -1,3 +1,72 @@
-p{ 
-    color : black;
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+h1 {
+    text-align: center;
+    margin: 100px 100px 40px 100px;
+}
+
+p {
+    font-weight: 800px;
+    font-size: 20px;
+    padding: 50px 10px 10px 10px;
+}
+
+#f1 {
+	background-color: rgb(238, 123, 148);
+}
+
+#f2 {
+	background-color: rgb(148, 25, 52);
+	color: white;
+}
+
+#f3 {
+	background-color: rgb(233, 233, 160);
+}
+
+h2 {
+    font-weight: bold;
+    text-align:center;
+    padding: 5px;
+    border: 5px solid black;
+    margin: -5px;
+    width: 150px;
+    float: right;
+}
+
+div {
+    background-color: darkgrey;
+    padding: 0px;
+    border: 5px solid black;
+    margin: 40px;
+    width: 550px;
+    float: left;
+    
+}
+
+@media (min-width:992px) {
+    div {
+        width: 550px;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    div {
+        width: 304px;
+    }
+
+    div#sushi {
+        width: 678px;
+    }
+}
+
+@media (max-width:767px) {
+    div {
+        width: 183;
+    }
 }
